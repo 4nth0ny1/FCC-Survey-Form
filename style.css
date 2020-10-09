@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;}
+
+body {
+  width: 580px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title-container {
+  text-align: center;
+}
+
+
+
+#name,
+#email,
+#number,
+#dropdown,
+#textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+#survey-form {
+  padding: 30px;
+  color: white;
+  border-radius: 15px;
+  background: rgb(167, 220, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(167, 220, 255, 1) 0%,
+    rgba(61, 88, 255, 1) 0%,
+    rgba(88, 121, 255, 1) 0%
+  );
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 50px;
+  color: white;
+  background: lightgreen;
+  margin-top: 5px;
+}
+
+#submit:hover {
+  background: orange;
+}
